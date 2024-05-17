@@ -21,6 +21,8 @@ void start() {
 }
 
 void main() {
+  List fruits = ["banana", "oranges", "apples"];
+
   print(add(23, 54));
 
   print(greeting());
@@ -28,4 +30,8 @@ void main() {
   multiply(34.6, 227);
 
   start();
+
+  fruits.forEach((fruit) {
+    print(fruit);
+  });
 }
