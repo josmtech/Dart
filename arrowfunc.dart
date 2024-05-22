@@ -1,5 +1,4 @@
 //functions with return type and parameters
-import 'dart:async';
 
 int add(int a, int b) {
   int sum = a + b;
